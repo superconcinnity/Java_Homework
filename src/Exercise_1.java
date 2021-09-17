@@ -69,7 +69,13 @@ public class Exercise_1 {
 
     private static void Homework_3(int a, int b, int c){
         //TODO 输出三个数中最大的数字
-
+        if( a >=b && a >= c){
+            System.out.println(a);
+        } else if(b >= a && b >= c){
+            System.out.println(b);
+        } else {
+            System.out.println(c);
+        }
     }
 
 }
